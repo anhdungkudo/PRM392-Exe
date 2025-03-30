@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Housing Loan Calculator"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etLoanAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Loan Amount ($)"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <EditText
+        android:id="@+id/etInterestRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Annual Interest Rate (%)"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvLoanDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loan Duration: 7 years"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+    <SeekBar
+        android:id="@+id/sbLoanDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="2"
+        android:progress="0"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvEMIAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monthly EMI: $0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvAnnualInterest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Annual Interest: $0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

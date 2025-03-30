@@ -1,0 +1,15 @@
+<!-- res/values/strings.xml -->
+<resources>
+    <string name="app_name">Stopwatch App</string>
+    <string name="stopwatch_label">Stopwatch</string>
+    <string name="countdown_label">Countdown Timer</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="stopwatch">Stop Watch</string>
+    <string name="count">00:00</string>
+    <string name="enter_seconds">Nhập số giây</string>
+
+    <!-- Bạn có thể khai báo thêm chuỗi nếu cần -->
+</resources>

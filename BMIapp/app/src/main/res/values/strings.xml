@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="title">BMI Calculator</string>
+    <string name="hint_weight">Enter weight</string>
+    <string name="hint_height">Enter height</string>
+    <string name="calculate_button">Calculate BMI</string>
+    <string name="result_default">Your BMI will appear here</string>
+    <string name="bmi_info">
+        BMI VALUES:
+        Underweight: less than 18.5
+        Normal: between 18.5 and 24.9
+        Overweight: between 25 and 29.9
+        Obese: 30 or greater
+    </string>
+    <string name="unit_metric">Metric (kg, cm)</string>
+    <string name="unit_english">English (lbs, inches)</string>
+    <string name="error_empty_fields">Please enter both weight and height</string>
+    <string name="error_invalid_input">Invalid input</string>
+</resources>
